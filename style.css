@@ -1,0 +1,221 @@
+/*
+Theme Name: Simplest Blog
+Theme URI: http://simplestblog.michellealzoladesign.com/
+Author: Michelle Alzola
+Author URI: http://michellealzoladesign.com/
+Description: The simplest of simplest blog theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, theme
+Text Domain: simplestblog
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body
+{          
+    font-family: 'Xanh Mono', monospace;          
+    font-size:15px;          
+    color:#333;          
+    background:#f4f4f4;          
+    margin:0;          
+    padding:0;          
+    line-height: 1.7em;
+    background-image: url('../simplestblog/assets/images/blog2-pattern.jpg'); 
+    background-attachment: fixed;  
+    font-size: 120%;   
+} 
+ 
+
+.top-div
+{
+    background-image: url('../simplestblog/assets/images/top.png');
+    height: 120px;
+    text-align: left;
+}
+
+header
+{        
+    height: 150px; 
+    float: left; 
+    width: 50%;  
+} 
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Meow Script', cursive;
+    color: rgb(118, 79, 92); 
+}
+
+
+header .container h1{       
+    margin:0;          
+    padding:0;          
+    padding-bottom: 0px;
+    padding-top: 1%;
+    font-size: 200%;
+    letter-spacing: 10px;   
+         
+}
+
+.top-div header .container
+{
+    height:200px;
+    padding-top: 2%;    
+}
+
+.main-nav
+{         
+    padding:5px;
+    padding-top: 2%;   
+    float: right; 
+    width: 25%;    
+    font-size: 130%;
+    
+}    
+.main
+{          
+    margin:2% 0;          
+    float:left;          
+    width:70%;
+    background-color: rgb(246, 248, 250);
+    padding: 2%;
+    border-radius: 10px;  
+    
+}
+
+.post h3
+{
+    font-size: 250%;
+    margin: 0 0;
+    margin-top: 2%;
+    
+}
+
+.container
+{          
+    width:auto;          
+    margin:0 5%;          
+    overflow: auto;  
+       
+}
+.sidebar
+{          
+    float:right;          
+    width:20%;
+    margin:2% 0;
+    background-color: rgb(246, 248, 250); 
+    padding: 2%; 
+    border-radius: 10px; 
+    color: rgb(81, 61, 47);    
+    font-size: 120%;  
+}
+
+footer
+{          
+    background: rgb(118, 79, 92);          
+    color:rgb(246, 248, 250);          
+    padding:10px 10px;          
+    text-align: center; 
+        
+}
+
+a
+{
+    text-decoration: none;         
+    color: rgb(68, 49, 67);      
+}
+
+article.post
+{          
+    border-bottom:1px #ccc solid;          
+    overflow:hidden; 
+    width: 95%;   
+    margin: auto;  
+}      
+
+a.button, .submit
+{          
+    display:inline-block;          
+    background:rgb(93, 73, 84);         
+    color:#fff;          
+    padding:10px 5px;          
+    margin-bottom: 10px;          
+    text-decoration: none;   
+    border-radius: 5px;
+    margin-left: 2.5%;
+    border: none;
+    width: 15%;
+    font-family: 'Xanh Mono', monospace;
+    font-size: 100%;
+    text-align: center;
+     
+}
+
+.meta
+{          
+   
+    padding:5px;      
+}      
+
+.meta a
+{          
+    color:black;      
+}
+
+.post-thumbnail img
+{          
+    width:100%;          
+    height:auto;
+    border-radius: 15px;      
+}
+
+.menu
+{         
+    margin:0;         
+    padding:0; 
+       
+}     
+
+.menu-item
+{         
+    list-style:none;         
+    float:left;         
+    padding-right:15px; 
+       
+}     
+
+.main-nav a
+{         
+    
+    text-decoration:none;     
+}
+
+.clr
+{          
+    clear:both;      
+}
+
+.side-widget
+{          
+    
+    margin-bottom:10px;          
+    margin-top:10px;      
+}
+
+.Side-widget li
+{          
+    list-style: none;          
+    line-height:2.2em;          
+    border-bottom:dotted 1px #ccc; 
+         
+} 
+
+.Side-widget a
+{          
+    text-decoration: none; 
+        
+}
+
